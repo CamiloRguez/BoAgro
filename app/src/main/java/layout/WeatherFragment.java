@@ -1,14 +1,29 @@
 package layout;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
 
+import com.example.bo_1.boagro.HttpHandler;
+import com.example.bo_1.boagro.MainActivity;
 import com.example.bo_1.boagro.R;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -29,6 +44,14 @@ public class WeatherFragment extends Fragment {
     private String mParam2;
 
     private OnFragmentInteractionListener mListener;
+
+    // URL to get contacts JSON
+    private ProgressDialog pDialog;
+    private String TAG = WeatherFragment.class.getSimpleName();
+    private static String url = "http://192.168.1.12:3001/api/medidas";
+    ArrayList<HashMap<String, String>> weatherList;
+    private TextView textTemp, textHum;
+    HashMap<String, String> medida = new HashMap<>();
 
     public WeatherFragment() {
         // Required empty public constructor
@@ -65,7 +88,17 @@ public class WeatherFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_weather, container, false);
+        View view = inflater.inflate(R.layout.fragment_weather, container, false);
+
+        //CODIGO
+        weatherList = new ArrayList<>();
+
+        textTemp = (TextView) view.findViewById(R.id.textTemp);
+        textHum = (TextView) view.findViewById(R.id.textHum);
+        new GetWeather().execute();
+        //***** CODIGO
+
+        return view;
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -78,12 +111,12 @@ public class WeatherFragment extends Fragment {
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
+        /*if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
             throw new RuntimeException(context.toString()
                     + " must implement OnFragmentInteractionListener");
-        }
+        }*/
     }
 
     @Override
@@ -106,4 +139,116 @@ public class WeatherFragment extends Fragment {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
+    //CODIGO
+    private class GetWeather extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            // Showing progress dialog
+            pDialog = new ProgressDialog(WeatherFragment.this.getActivity());
+            pDialog.setMessage("Please wait...");
+            pDialog.setCancelable(false);
+            pDialog.show();
+
+        }
+
+        @Override
+        protected Void doInBackground(Void... arg0) {
+            HttpHandler sh = new HttpHandler();
+
+            // Making a request to url and getting response
+            String jsonStr = sh.makeServiceCall(url);
+
+            Log.e(TAG, "Response from url: " + jsonStr);
+
+            if (jsonStr != null) {
+                try {
+                    JSONObject jsonObj = null;
+                    JSONArray jsonArr = null;
+                    try {
+                        jsonArr = new JSONArray(jsonStr);
+                        jsonObj = jsonArr.getJSONObject(0);
+                        Log.d("Objeto: ",jsonObj.toString());
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+
+                    // Obtener hora
+                    String temp = null, hum = null;
+                    if (jsonObj != null) {
+                        jsonArr = jsonObj.getJSONArray("datalogers");
+                        Log.d("jsonArr: ",jsonArr.toString());
+                        JSONObject jsonDataloger = jsonArr.getJSONObject(0);
+                        Log.d("jsonData: ",jsonDataloger.toString());
+                        JSONObject jsonValores = jsonDataloger.getJSONObject("valores");
+                        Log.d("jsonValores: ",jsonValores.toString());
+                        temp = jsonValores.getString("temp_inv");
+                        Log.d("Temp_inv: ",temp);
+                        hum = jsonValores.getString("hum_inv");
+                        Log.d("Hum_inv: ",hum);
+                    }else{
+                        Log.d("NULO","NULO");
+                    }
+
+                    medida.put("temp", temp);
+                    medida.put("hum",hum);
+                    weatherList.add(medida);
+                    Log.d("WeatherList: ",weatherList.get(0).toString());
+
+
+                } catch (final JSONException e) {
+                    Log.e(TAG, "Json parsing error: " + e.getMessage());
+                    getActivity().runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Toast.makeText(getActivity().getApplicationContext(),
+                                    "Json parsing error: " + e.getMessage(),
+                                    Toast.LENGTH_LONG)
+                                    .show();
+                        }
+                    });
+
+                }
+            } else {
+                Log.e(TAG, "Couldn't get json from server.");
+                getActivity().runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        Toast.makeText(getActivity().getApplicationContext(),
+                                "Couldn't get json from server. Check LogCat for possible errors!",
+                                Toast.LENGTH_LONG)
+                                .show();
+                    }
+                });
+
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            super.onPostExecute(result);
+            // Dismiss the progress dialog
+            if (pDialog.isShowing())
+                pDialog.dismiss();
+            /**
+             * Updating parsed JSON data into ListView
+             * */
+
+            textTemp.setText(medida.get("temp")+"ºC");
+            textHum.setText(medida.get("hum")+"%");
+
+            /*ListAdapter adapter = new SimpleAdapter(
+                    MainActivity.this, medidaList,
+                    R.layout.list_item, new String[]{"id", "hora"},
+                    new int[]{R.id.id, R.id.hora});
+
+            lv.setAdapter(adapter);*/
+        }
+
+    }
+    //***** CODIGO
 }

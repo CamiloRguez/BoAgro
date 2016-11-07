@@ -72,6 +72,10 @@
         "source": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
+        "merged": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circular_progressbar.xml",
+        "source": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\src\\main\\res\\drawable\\circular_progressbar.xml"
+    },
+    {
         "merged": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
@@ -144,12 +148,12 @@
         "source": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
-        "source": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
-    },
-    {
         "merged": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gota.png",
         "source": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\src\\main\\res\\drawable\\gota.png"
+    },
+    {
+        "merged": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",
+        "source": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\src\\main\\res\\drawable\\ic_menu_camera.xml"
     },
     {
         "merged": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
