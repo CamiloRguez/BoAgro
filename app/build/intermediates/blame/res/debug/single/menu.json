@@ -1,7 +1,15 @@
 [
     {
+        "merged": "D:\\BO TRUE\\Android\\Remoto\\BoAgro_Remoto\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "D:\\BO TRUE\\Android\\Remoto\\BoAgro_Remoto\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
         "merged": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\BO TRUE\\Android\\Remoto\\BoAgro_Remoto\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "D:\\BO TRUE\\Android\\Remoto\\BoAgro_Remoto\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
         "merged": "C:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",

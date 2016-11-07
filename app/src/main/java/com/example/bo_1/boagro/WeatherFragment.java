@@ -1,4 +1,4 @@
-package layout;
+package com.example.bo_1.boagro;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -10,13 +10,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.bo_1.boagro.HttpHandler;
-import com.example.bo_1.boagro.MainActivity;
-import com.example.bo_1.boagro.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
