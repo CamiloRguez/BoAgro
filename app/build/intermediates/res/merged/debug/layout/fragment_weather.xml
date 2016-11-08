@@ -3,67 +3,110 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.WeatherFragment"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    tools:context=".WeatherFragment"
     android:id="@+id/FrgWeather">
 
 
     <!-- TODO: Update blank fragment layout -->
 
+
+    <at.grabner.circleprogress.CircleProgressView
+        android:id="@+id/tempView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        CircleProgressView:cpv_autoTextSize="true"
+        CircleProgressView:cpv_barColor="#ff0011"
+        CircleProgressView:cpv_barWidth="15dp"
+        CircleProgressView:cpv_innerContourSize="0dp"
+        CircleProgressView:cpv_maxValue="55"
+        CircleProgressView:cpv_outerContourSize="0dp"
+        CircleProgressView:cpv_rimColor="#19ff9090"
+        CircleProgressView:cpv_rimWidth="15dp"
+        CircleProgressView:cpv_seekMode="false"
+        CircleProgressView:cpv_showUnit="false"
+        CircleProgressView:cpv_spinColor="#000000"
+        CircleProgressView:cpv_textColor="#ffffffff"
+        CircleProgressView:cpv_textScale="0"
+        CircleProgressView:cpv_unit="%"
+        CircleProgressView:cpv_unitColor="#000000"
+        CircleProgressView:cpv_unitPosition="right_top"
+        CircleProgressView:cpv_unitScale="1"
+        CircleProgressView:cpv_value="25"
+        CircleProgressView:cpv_fillColor="#00ff0303"
+        android:layout_alignTop="@+id/humView"
+        android:layout_marginStart="14dp" />
+
+    <at.grabner.circleprogress.CircleProgressView
+        android:id="@+id/humView"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        CircleProgressView:cpv_autoTextSize="true"
+        CircleProgressView:cpv_barColor="#008cff"
+        CircleProgressView:cpv_barWidth="15dp"
+        CircleProgressView:cpv_innerContourSize="0dp"
+        CircleProgressView:cpv_maxValue="100"
+        CircleProgressView:cpv_outerContourSize="0dp"
+        CircleProgressView:cpv_rimColor="#19038aff"
+        CircleProgressView:cpv_rimWidth="15dp"
+        CircleProgressView:cpv_seekMode="false"
+        CircleProgressView:cpv_showUnit="false"
+        CircleProgressView:cpv_spinColor="#000000"
+        CircleProgressView:cpv_textColor="#ffffffff"
+        CircleProgressView:cpv_textScale="0"
+        CircleProgressView:cpv_unit="%"
+        CircleProgressView:cpv_unitColor="#000000"
+        CircleProgressView:cpv_unitPosition="right_top"
+        CircleProgressView:cpv_unitScale="1"
+        CircleProgressView:cpv_value="66"
+        CircleProgressView:cpv_fillColor="#00ff0303"
+        android:layout_marginBottom="154dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp" />
+
     <ImageView
-        android:layout_width="80dp"
-        android:layout_height="100dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/sun"
+        android:id="@+id/sol"
+        android:scaleType="fitXY"
+        android:layout_alignBottom="@+id/tempView"
+        android:layout_alignStart="@+id/tempView"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="43dp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
         android:src="@drawable/gota"
         android:id="@+id/gota"
         android:scaleType="fitXY"
-        android:layout_marginTop="50dp"
-        android:layout_below="@+id/termometro"
-        android:layout_alignParentStart="true" />
-
-    <com.example.bo_1.boagro.CustomTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textHum"
-        android:textSize="50sp"
-        app:font="print_bold_tt.ttf"
-        android:layout_marginStart="40dp"
-        android:layout_alignBottom="@+id/gota"
-        android:layout_toEndOf="@+id/gota"
-        android:layout_marginBottom="26dp" />
-
-    <ImageView
-        android:layout_width="90dp"
-        android:layout_height="100dp"
-        android:src="@drawable/termometro"
-        android:id="@+id/termometro"
-        android:scaleType="fitXY"
-        android:layout_marginTop="85dp"
-        android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/textHum"
-        android:layout_marginStart="16dp" />
-
-    <ProgressBar
-        android:id="@+id/circular_progress_bar"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="200dp"
-        android:layout_height="300dp"
-        android:indeterminate="false"
-        android:max="55"
-        android:progress="55"
-        android:progressDrawable="@drawable/circular_progressbar"
-        android:layout_marginBottom="23dp"
-        android:layout_above="@+id/textHum"
-        android:layout_centerHorizontal="true" />
+        android:layout_marginStart="26dp"
+        android:layout_alignTop="@+id/sol"
+        android:layout_alignStart="@+id/humView" />
 
     <com.example.bo_1.boagro.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textTemp"
-        android:textSize="50sp"
+        android:width="40dp"
+        android:textSize="30sp"
         app:font="print_bold_tt.ttf"
-        android:layout_marginLeft="33dp"
-        android:layout_marginBottom="24dp"
-        android:layout_alignBottom="@+id/termometro"
-        android:layout_alignEnd="@+id/termometro" />
+        android:layout_alignTop="@+id/sol"
+        android:layout_toEndOf="@+id/sol"
+        android:layout_alignBottom="@+id/sol" />
+
+    <com.example.bo_1.boagro.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textHum"
+        android:textSize="30sp"
+        android:width="60dp"
+        app:font="print_bold_tt.ttf"
+        android:layout_alignTop="@+id/gota"
+        android:layout_toEndOf="@+id/gota"
+        android:layout_alignBottom="@+id/gota" />
 
 
 </RelativeLayout>

@@ -5,33 +5,40 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="2557903715384"
-    token="7386986043497361193"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="105128618478981"
+    token="6866743608324839691"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="794" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="251" />
+        duration="0" />
     <task
         name="verifier"
-        duration="113" />
+        duration="0" />
 
     <artifact
-        location="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\outputs\apk\app-debug.apk"
-        type="MAIN" />
+        location="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="2557903715384"
+        timestamp="105053572006444"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\outputs\apk\app-debug.apk"
+            location="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="105128618478981"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

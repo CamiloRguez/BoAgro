@@ -3,174 +3,183 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_a48fa949301aa11bf73acaa6efd9094dc9c62b8e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_5fc79a884f88b43574da2e6bf5833ad4aea48147\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_578c186f03562040a2fc0943d02b0bc40fac4c0f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_39890c86fe3ba92c3c487f840d1b7446f2f4fbfc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a137f3582b73504b5462989c0e8ca8bcd05461d5">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_f0a200c0989d6949b544406b97d401137ac69bc3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_a2677eed9186c81030f1b86163ecfdd9fce1b029\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_dd1002fa5bd52ee69e62bb1fca3224b590fc1f3d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_f227660bf12c7af7621a1c99f9d4af86c4698d9f\classes.dex" />
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_91feca3fcde6faea448c67cbf806076585dafc91\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_f42d71493909d34727d83bc741b5adf541cfccb0\classes.dex" />
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_ca59ca5bbd3b063051e86d0e9a74f996ebeee60b\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_1b82c9f799b8befa741d2271f248eb0a32bb63f4\classes.dex" />
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_079f0be0b0667a67754959929e791ee5ff53a2c8\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5006d124d87094ef94d7a801beb4112cba05b0e0">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7d0a134f7ccf7a4ad3f4db78412f789725873e7d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_1d6f62a129637d35b450087893b032ebcdd45b55\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_d30439fe300a1d8ef4706006b55d15aec3dbe792\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_3a2a74578b092e424bc92635f478e501cf3086fa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_fcb63823b2f5f3a6e1f2c228be2cace42bdf71c3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_d95b0d68e6a7a5082784e6d3e7a1fe8dc9bb83f7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d9ccf966bdb945ecbde7056102ad998b9f2606c1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_606a1077fec50c481f0020912c797eee137cfbd8\classes.dex" />
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_41c68c3ac51320c820aaadf0e20e9a26282b98d7\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jar="C:\Users\Camilo\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_0d67c9b56a97f30f3188b750b86aa513ed47d98f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_926eb557c539f8891df9252ec44a845e76b42d7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_70c4b566d8247ec424ffcc1846b19b3ae002bc9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6b3e34f9231b7742a371284779c2e28cf5cfa63e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.1_3f9c2d8af46009872896a46e45ebdb6fd90ac308\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.github.jakob-grabner\Circle-Progress-View\v1.2.9.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a5831570016551e328e27648524d0478a067f746">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.jakob-grabner-Circle-Progress-View-v1.2.9.1_9656a0e13259e33fa7e76f88f470cf16d35ec1a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_91531f35acdf809ffd2b112ca5a196933eb50301\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_d88ff14a86f226d38f2441ea9e5011d21c06780c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5866b0424b2aa2cd40ad365ae8eb73d20c23f85c">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_7efdf808a4fce019c795301007a7533bacc12dbe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_c7f34d42ef7a9385ac2fdeabd0ced60e317efa21\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Bo_1\AndroidStudioProjects\BoAgro\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_94c1847e1c341314e1c5ecfc55d8a4ed0008be1c\classes.dex" />
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_6e88ff6e7eb1493504175759c6550adefc9853a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ceb73e1d7aedf16f337e0d52d874a95f844b90a7">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_58dde2f092ece32af9094fb15acf03963553ce82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_769f787570d67460da28b091e4811b93f148e1b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_5d775a95fba1f009546deb71068c9fd134c25311\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_f463933fd2b110b9b910bf3d3f87f3c5464c384d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_eae2e5a01a22d5b323bb9046e691225a5dde667b\classes.dex" />
     </item>
 
 </items>

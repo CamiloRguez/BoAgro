@@ -20,6 +20,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import at.grabner.circleprogress.CircleProgressView;
+
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
@@ -43,10 +45,13 @@ public class WeatherFragment extends Fragment {
     // URL to get contacts JSON
     private ProgressDialog pDialog;
     private String TAG = WeatherFragment.class.getSimpleName();
-    private static String url = "http://192.168.1.12:3001/api/medidas";
+    private static String url = "http://192.168.1.148:3001/api/medidas";
     ArrayList<HashMap<String, String>> weatherList;
     private TextView textTemp, textHum;
     HashMap<String, String> medida = new HashMap<>();
+
+    //CircleView
+    CircleProgressView mCircleView;
 
     public WeatherFragment() {
         // Required empty public constructor
@@ -77,13 +82,18 @@ public class WeatherFragment extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_weather, container, false);
+
+
 
         //CODIGO
         weatherList = new ArrayList<>();
@@ -92,6 +102,16 @@ public class WeatherFragment extends Fragment {
         textHum = (TextView) view.findViewById(R.id.textHum);
         new GetWeather().execute();
         //***** CODIGO
+
+        //CircleView
+        mCircleView = (CircleProgressView) view.findViewById(R.id.tempView);
+        mCircleView.setOnProgressChangedListener(new CircleProgressView.OnProgressChangedListener() {
+            @Override
+            public void onProgressChanged(float value) {
+                Log.d(TAG, "Progress Changed: " + value);
+            }
+        });
+
 
         return view;
     }
@@ -233,9 +253,8 @@ public class WeatherFragment extends Fragment {
              * Updating parsed JSON data into ListView
              * */
 
-            textTemp.setText(medida.get("temp")+"ºC");
+            textTemp.setText(medida.get("temp")+"º");
             textHum.setText(medida.get("hum")+"%");
-
             /*ListAdapter adapter = new SimpleAdapter(
                     MainActivity.this, medidaList,
                     R.layout.list_item, new String[]{"id", "hora"},

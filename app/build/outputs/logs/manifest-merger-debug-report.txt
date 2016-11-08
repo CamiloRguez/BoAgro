@@ -29,6 +29,7 @@ MERGED from [com.android.support:support-fragment:24.2.1] D:\BO TRUE\Android\Rem
 MERGED from [com.android.support:appcompat-v7:24.2.1] D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:24.2.1] D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:v1.2.9.1] D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.github.jakob-grabner\Circle-Progress-View\v1.2.9.1\AndroidManifest.xml:11:5-20
 	android:label
 		ADDED from D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -70,6 +71,7 @@ MERGED from [com.android.support:appcompat-v7:24.2.1] D:\BO TRUE\Android\Remoto\
 MERGED from [com.android.support:support-vector-drawable:24.2.1] D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:animated-vector-drawable:24.2.1] D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:24.2.1] D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\AndroidManifest.xml:20:5-43
+MERGED from [com.github.jakob-grabner:Circle-Progress-View:v1.2.9.1] D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.github.jakob-grabner\Circle-Progress-View\v1.2.9.1\AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:support-v4:24.2.1] D:\BO TRUE\Android\Remoto\BoAgro_Remoto\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion

@@ -5,11 +5,9 @@
     android:shape="ring"
     android:thickness="20dp"
     android:useLevel="true">
-    <padding
-        android:left="10dp"
-        android:top="10dp"
-        android:right="10dp"
-        android:bottom="10dp" />
 
-    <solid android:color="@color/colorPrimary" />
+    <stroke
+        android:width="3dp"
+        android:color="#000000" />
+
 </shape>

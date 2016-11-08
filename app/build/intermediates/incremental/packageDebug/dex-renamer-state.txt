@@ -1,7 +1,7 @@
-#Mon Nov 07 13:37:14 CET 2016
-base.0=C\:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f0a200c0989d6949b544406b97d401137ac69bc3
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=C\:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7d0a134f7ccf7a4ad3f4db78412f789725873e7d\\classes.dex
-base.1=C\:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7d0a134f7ccf7a4ad3f4db78412f789725873e7d
-file.0=C\:\\Users\\Bo_1\\AndroidStudioProjects\\BoAgro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f0a200c0989d6949b544406b97d401137ac69bc3\\classes.dex
+#Tue Nov 08 01:07:20 CET 2016
+base.0=D\:\\BO TRUE\\Android\\Remoto\\BoAgro_Remoto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_58dde2f092ece32af9094fb15acf03963553ce82
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\BO TRUE\\Android\\Remoto\\BoAgro_Remoto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7efdf808a4fce019c795301007a7533bacc12dbe\\classes.dex
+base.1=D\:\\BO TRUE\\Android\\Remoto\\BoAgro_Remoto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_7efdf808a4fce019c795301007a7533bacc12dbe
+file.0=D\:\\BO TRUE\\Android\\Remoto\\BoAgro_Remoto\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_58dde2f092ece32af9094fb15acf03963553ce82\\classes.dex
